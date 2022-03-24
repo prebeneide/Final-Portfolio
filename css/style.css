@@ -1,0 +1,79 @@
+body {
+  background-color: #707a8a;
+  margin: 0;
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1.5px 1.5px 10px #2d2d2d41;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #929caa;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+
+.logo {
+  background-color: #707a8a;
+  padding: 0.5em;
+  border: 2px solid #00d646;
+  border-radius: 100%;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #00d646;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 800px;
+}
+
+.content.one {
+  display: flex;
+  flex-direction: column;
+}
+
+.green {
+  color: #00d646;
+}
+
+.one h1 {
+  font-size: 80px;
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#background-one {
+  background-image: url("../images/adithya-holehonnur-G2vXFc_FLN8-unsplash.jpg");
+}
+
+.navtransform {
+  transform: translateX(0%);
+}
