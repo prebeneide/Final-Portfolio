@@ -2,7 +2,7 @@ function navAnimation() {
 
     const links = document.querySelectorAll(".nav-links li");
 
-    const list = document.querySelector("nav-links");
+    const list = document.querySelector(".nav-links");
 
     const menu = document.querySelector(".menuicon");
 
