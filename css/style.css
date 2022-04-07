@@ -49,6 +49,10 @@ nav {
   font-size: 13px;
 }
 
+.nav-links a:hover {
+  color: #00d646;
+}
+
 .logo {
   padding: 0.5em;
   border: 2px solid #00d646;
